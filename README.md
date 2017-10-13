@@ -1,3 +1,16 @@
+Kamil Kaczmarczyk
+2017-10-13
+
+# CarND-Controls-Model Predictive Control
+Self-Driving Car Engineer Nanodegree Program
+
+## Introduction
+This code contains successful implementation of a MPC controller for a self-driving vehicle. Outputs of the implementation is a trajectory and a cross-track error from the middle of the desired trajectory, delta steering angle as well as the velocity over the simulated steps can be seen below for non-optimized cost function with sharp steering angle and for optimized cost function containing a smoother steering angle output which does not reach the limit.
+
+![alt tex](https://github.com/Kamil-K/CarND-MPC-Quizzes/blob/master/mpc_to_line/pics/CTE_Delta_Velocity.PNG "Successful Run")
+
+![alt tex](https://github.com/Kamil-K/CarND-MPC-Quizzes/blob/master/mpc_to_line/pics/CTE_Delta_Velocity100.PNG "Successful Run")
+
 # CarND Controls Quizzes
 
 Quizzes for *Vehicle Models* and *Model Predictive Control* sections.
