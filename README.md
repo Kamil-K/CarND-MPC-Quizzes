@@ -9,7 +9,7 @@ This code contains successful implementation of a MPC controller for a self-driv
 
 ![alt tex](https://github.com/Kamil-K/CarND-MPC-Quizzes/blob/master/mpc_to_line/pics/CTE_Delta_Velocity.PNG "Successful Run")
 
-![alt tex](https://github.com/Kamil-K/CarND-MPC-Quizzes/blob/master/mpc_to_line/pics/CTE_Delta_Velocity100.PNG "Successful Run")
+![alt tex](https://github.com/Kamil-K/CarND-MPC-Quizzes/blob/master/mpc_to_line/pics/CTE_Delta_Velocity_100.PNG "Successful Run")
 
 # CarND Controls Quizzes
 
