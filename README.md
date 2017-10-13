@@ -5,9 +5,13 @@ Kamil Kaczmarczyk
 Self-Driving Car Engineer Nanodegree Program
 
 ## Introduction
-This code contains successful implementation of a MPC controller for a self-driving vehicle. Outputs of the implementation is a trajectory and a cross-track error from the middle of the desired trajectory, delta steering angle as well as the velocity over the simulated steps can be seen below for non-optimized cost function with sharp steering angle and for optimized cost function containing a smoother steering angle output which does not reach the limit.
+This code contains successful implementation of a MPC controller for a self-driving vehicle. Outputs of the implementation is a trajectory and a cross-track error from the middle of the desired trajectory, delta steering angle as well as the velocity over the simulated steps.
+
+First picture is for non-optimized cost function with sharp steering angle cut out when it reaches the constrained limit.
 
 ![alt tex](https://github.com/Kamil-K/CarND-MPC-Quizzes/blob/master/mpc_to_line/pics/CTE_Delta_Velocity.PNG "Successful Run")
+
+Second graph showes an optimized cost function containing a smoother steering angle output which does not reach the limit and does not contain a sharp change of steering angle hence is safer for the car.
 
 ![alt tex](https://github.com/Kamil-K/CarND-MPC-Quizzes/blob/master/mpc_to_line/pics/CTE_Delta_Velocity_100.PNG "Successful Run")
 
